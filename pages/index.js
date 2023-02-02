@@ -58,11 +58,11 @@ export default function Home() {
               I am a young software developer who is looking to
               challenge himself in different parts of his life. I am awaiting
               graduation from We Think Code after studying software Development.
-              I chose a career in software development as a result. of my
+              I chose a career in software development as a result of my
               interest in tech and my hunger to have an impact in the world. I
               have been exposed to different kinds of people who have vastly
-              different perspectives. I believe in a sense of community. and
-              teamwork, and that could be adopted and used to better the
+              different perspectives. I believe in a sense of community and
+              teamwork and that could be adopted and used to better the
               workplace, South Africa, and beyond.
             </p>
           </div>
