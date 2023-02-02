@@ -24,7 +24,7 @@ export default function Home() {
         <section className="bg-gradient-to-b from-blue-300 text- to-cyan-500">
           <section>
             <nav className="py-10  flex justify-between dark:text-white">
-              <div className="text-4xl lg:text-6xl flex justify-center gap-10 pl-5  py-2 text-gray-800 dark:text-white">
+              <div className="text-5xl lg:text-6xl flex justify-center gap-10 pl-5  py-2 text-gray-800 dark:text-white">
                 <a href="https://github.com/Athenksoi-Nomavila/porfolio">
                   <AiFillGithub />
                 </a>
@@ -33,11 +33,11 @@ export default function Home() {
                   <AiFillLinkedin />
                 </a>
               </div>
-              <ul className="md:text-4xl lg:text-7xl sm:text-4xl flex justify-center pr-5 py-3">
+              <ul className="text-5xl lg:text-7xl flex justify-center pr-5 py-3">
                 <li>
                   <BsFillMoonStarsFill
                     onClick={() => setDarkMode(!darkMode)}
-                    className=" cursor-pointer md:text-2xl lg:text-5xl"
+                    className=" cursor-pointer text-4xl lg:text-5xl"
                   />
                 </li>
               </ul>
@@ -49,7 +49,7 @@ export default function Home() {
               <h3 className="text-2xl py-2 dark:text-white lg:text-6xl md:text-3xl">
                 Fullstack Developer.
               </h3>
-              <div className=" text-center mx-auto m-auto shadow-2xl rounded-full w-80 h-80 relative overflow-hidden mt-10 lg:h-fit lg:w-fit sm:h-72 sm:w-72 md:h-96 md:w-96">
+              <div className=" sm:text-center mx-auto m-auto shadow-2xl rounded-full w-80 h-80 relative overflow-hidden mt-10 lg:h-fit lg:w-fit sm:h-72 sm:w-72 md:h-96 md:w-96">
                 <Image src={athi} />
               </div>
             </div>
