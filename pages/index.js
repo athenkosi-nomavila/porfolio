@@ -16,8 +16,16 @@ export default function Home() {
       <main className=" bg-gradient-to-b from-blue-300 text- to-cyan-600 px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section>
           <nav className="py-10  flex justify-between dark:text-white">
-            <h1 className="font-poppins text-xl">Athenkosi Nomavila</h1>
-            <ul className="text-4xl flex justify-center gap-5 py-3">
+          <div className="text-4xl flex justify-center gap-10 pl-5  py-3 text-gray-800 dark:text-gray-400">
+              <a href="https://github.com/Athenksoi-Nomavila/porfolio">
+                <AiFillGithub />
+              </a>
+
+              <a href="https://www.linkedin.com/in/athenkosi-nomavila">
+                <AiFillLinkedin />
+              </a>
+            </div>
+            <ul className="text-4xl flex justify-center pr-5 py-3">
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
@@ -57,15 +65,6 @@ export default function Home() {
               teamwork, and that could be adopted and used to better the
               workplace, South Africa, and beyond.
             </p>
-            <div className="text-6xl flex justify-center gap-16 py-3 text-gray-800 dark:text-gray-400">
-              <a href="https://github.com/Athenksoi-Nomavila/porfolio">
-                <AiFillGithub />
-              </a>
-
-              <a href="https://www.linkedin.com/in/athenkosi-nomavila">
-                <AiFillLinkedin />
-              </a>
-            </div>
           </div>
         </section>
       </main>
