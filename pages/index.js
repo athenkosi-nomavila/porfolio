@@ -41,7 +41,7 @@ export default function Home() {
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Fullstack Developer.
             </h3>
-            <div className="relative mx-auto shadow-xl bg-gradient-to-b from-blue-500 rounded-full w-80 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96">
+            <div className=" text-center mx-auto shadow-xl bg-gradient-to-b from-blue-500 rounded-full w-80 h-80 relative overflow-hidden">
               <Image src={athi} layout="fill" objectFit="cover" />
             </div>
           </div>
