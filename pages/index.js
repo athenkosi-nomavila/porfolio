@@ -16,7 +16,7 @@ export default function Home() {
       <main className=" bg-gradient-to-b from-blue-300 text- to-cyan-600 px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section>
           <nav className="py-10  flex justify-between dark:text-white">
-          <div className="text-4xl flex justify-center gap-10 pl-5  py-3 text-gray-800 dark:text-gray-400">
+          <div className="text-4xl flex justify-center gap-10 pl-5  py-2 text-gray-800 dark:text-gray-400">
               <a href="https://github.com/Athenksoi-Nomavila/porfolio">
                 <AiFillGithub />
               </a>
