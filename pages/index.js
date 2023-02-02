@@ -80,23 +80,23 @@ export default function Home() {
               Skills
             </h2>
           </div>
-          <div className="w-40 h-40 relative mt-10 md:h-46 md:w-46 pb-20  ">
-            <Image src={java} />
+          <div className="text-center w-20 h-20 mt-10 md:h-46 md:w-46">
+            <Image src={java} /><h2 className=" font-bold ">Java</h2>
           </div>
 
-          <div className="w-40 h-40 relative overflow-hidden mt-10 md:h-46 md:w-46">
+          <div className="w-20 h-20 mt-10 md:h-46 md:w-46">
             <Image src={javascript} />
           </div>
 
-          <div className="w-40 h-40 relative overflow-hidden mt-10 md:h-46 md:w-46">
+          <div className="w-20 h-20 relative mt-10 md:h-46 md:w-46">
             <Image src={html} />
           </div>
 
-          <div className="w-40 h-40 relative overflow-hidden mt-10 md:h-46 md:w-46">
+          <div className="w-20 h-20 mt-10 md:h-46 md:w-46">
             <Image src={css} />
           </div>
 
-          <div className="w-40 h-40 relative overflow-hidden mt-10 md:h-46 md:w-46">
+          <div className="w-20 h-20 mt-10 md:h-46 md:w-46">
             <Image src={python} />
           </div>
         </section>
