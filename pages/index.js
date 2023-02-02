@@ -117,7 +117,7 @@ export default function Home() {
                   webkitallowfullscreen
                   mozallowfullscreen
                   allowfullscreen
-                  className="loom-frame pl-32"
+                  className="loom-frame"
                 ></iframe>
               </div>
 
@@ -128,7 +128,7 @@ export default function Home() {
                   webkitallowfullscreen
                   mozallowfullscreen
                   allowfullscreen
-                  className="loom-frame pl-32"
+                  className="loom-frame"
                 ></iframe>
               </div>
             </div>
