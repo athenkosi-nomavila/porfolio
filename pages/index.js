@@ -49,7 +49,7 @@ export default function Home() {
               <h3 className="text-2xl py-2 dark:text-white lg:text-6xl md:text-3xl">
                 Fullstack Developer.
               </h3>
-              <div className=" sm:text-center mx-auto m-auto shadow-2xl rounded-full w-80 h-80 relative overflow-hidden mt-10 lg:h-fit lg:w-fit sm:h-72 sm:w-72 md:h-96 md:w-96">
+              <div className=" sm:text-center mx-auto m-auto shadow-2xl rounded-full w-80 h-80 relative overflow-hidden mt-10 lg:h-fit lg:w-fit sm:h-fit sm:w-fit md:h-96 md:w-96">
                 <Image src={athi} />
               </div>
             </div>
