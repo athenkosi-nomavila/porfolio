@@ -20,7 +20,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=" bg-gradient-to-b from-blue-300 text- to-cyan-600 px-10 dark: sm:px-10 md:px-20 lg:px-40">
+      <main className=" bg-gradient-to-b from-blue-300 text- to-cyan-600 px-10 dark: sm:px-10 md:px-20 lg:px-96">
         <section>
           <nav className="py-10  flex justify-between dark:text-white">
             <div className="text-4xl flex justify-center gap-10 pl-5  py-2 text-gray-800 dark:text-white">
@@ -42,13 +42,13 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center shadow-2xl p-10 py-20">
-            <h2 className="text-5xl py-2 text-blue-500 font-medium dark:text-teal-400 md:text-6xl">
+            <h2 className="text-5xl py-2 text-blue-500 font-medium dark:text-teal-400 lg:text-8xl md:text-6xl">
               Athenkosi Nomavila
             </h2>
-            <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
+            <h3 className="text-2xl py-2 dark:text-white lg:text-6xl md:text-3xl">
               Fullstack Developer.
             </h3>
-            <div className=" text-center mx-auto shadow-2xl rounded-full w-80 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96">
+            <div className=" text-center mx-auto shadow-2xl rounded-full w-80 h-80 relative overflow-hidden mt-10 lg:h-fit lg:w-fit md:h-96 md:w-96">
               <Image src={athi} />
             </div>
           </div>
@@ -56,10 +56,10 @@ export default function Home() {
 
         <section className="shadow-2xl text-center  p-10 py-10">
           <div>
-            <h2 className="text-5xl pt-20 py-2 font-medium dark:text-teal-400 md:text-6xl">
+            <h2 className="text-5xl pt-20 py-2 font-medium dark:text-teal-400 lg:text-8xl md:text-6xl">
               About
             </h2>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl pb-20">
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto lg:text-2xl md:text-xl pb-20">
               I am a young software developer who is looking to challenge
               himself in different parts of his life. I am awaiting graduation
               from We Think Code after studying software development. I chose a
@@ -76,7 +76,7 @@ export default function Home() {
 
         <section className="shadow-2xl pb-10 text-center">
           <div className="text-center pt-20">
-            <h2 className="text-5xl font-medium dark:text-teal-400 md:text-6xl">
+            <h2 className="text-5xl font-medium dark:text-teal-400 lg:text-8xl md:text-6xl">
               Skills
             </h2>
           </div>
@@ -106,10 +106,10 @@ export default function Home() {
 
         <section className="shadow-2xl p-10 py-10">
           <div className="text-center">
-            <h2 className="text-5xl pt-20 py-2 font-medium dark:text-teal-400 md:text-6xl">
+            <h2 className="text-5xl pt-20 py-2 font-medium dark:text-teal-400 lg:text-8xl md:text-6xl">
               Projects
             </h2>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl pb-20">
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl pb-20 lg:text-2xl">
               These are two of the projects of which I am most proud. Throughout
               In my journey to make them, I was faced with a lot of challenges.
               That brought me out of my comfort zone and forced me to think in
