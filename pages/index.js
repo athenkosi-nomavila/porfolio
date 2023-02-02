@@ -1,8 +1,6 @@
 import Head from "next/head";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import { BsFillMoonStarsFill } from "react-icons/bs";
 import athi from "../public/avatar.png";
-import demo from "../public/demoed.gif";
 import java from "../public/java.png";
 import javascript from "../public/js.png";
 import html from "../public/html.png";
@@ -111,8 +109,27 @@ export default function Home() {
                 exponential growth, for which I could say it is only the
                 beginning.
               </p>
-              <div className="">
-                <Image src={demo}/>
+
+              <div className="loom">
+                <iframe
+                  src="https://www.loom.com/embed/ca899eb20f3846f8989683a7298eda46"
+                  frameborder="0"
+                  webkitallowfullscreen
+                  mozallowfullscreen
+                  allowfullscreen
+                  className="loom-frame pl-32"
+                ></iframe>
+              </div>
+
+              <div className="loom">
+                <iframe
+                  src="https://www.loom.com/embed/21fdda05d04643ce86dc354c4f344e91"
+                  frameborder="0"
+                  webkitallowfullscreen
+                  mozallowfullscreen
+                  allowfullscreen
+                  className="loom-frame pl-32"
+                ></iframe>
               </div>
             </div>
           </section>
