@@ -104,8 +104,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="shadow-2xl">
-          <div className="text-center pt-10">
+        <section className="shadow-2xl p-10 py-10">
+          <div className="text-center">
             <h2 className="text-5xl pt-20 py-2 font-medium dark:text-teal-400 md:text-6xl">
               Projects
             </h2>
