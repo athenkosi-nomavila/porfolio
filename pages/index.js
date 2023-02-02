@@ -20,11 +20,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=" bg-cyan-200 px-10 dark:bg-gradient-to-b from-blue-600 text- to-sky-500 sm:px-10 md:px-20 lg:px-96">
-        <section className="bg-gradient-to-b from-blue-300 text- to-cyan-500">
+      <main className="p-10 bg-sky-100 sm:px-10 md:px-20 lg:px-96">
+        <section className="bg-gradient-to-b from-blue-300 text- to-purple-300">
           <section>
-            <nav className="py-10  flex justify-between dark:text-white">
-              <div className="text-5xl lg:text-6xl flex justify-center gap-10 pl-5  py-2 text-gray-800 dark:text-white">
+            <nav className="py-10  flex justify-between">
+              <div className="text-5xl lg:text-6xl flex justify-center gap-10 pl-5  py-2 text-gray-800">
                 <a href="https://github.com/Athenksoi-Nomavila/porfolio">
                   <AiFillGithub />
                 </a>
@@ -33,23 +33,15 @@ export default function Home() {
                   <AiFillLinkedin />
                 </a>
               </div>
-              <ul className="md:text-5xl lg:text-7xl flex justify-center pr-5 py-3">
-                <li>
-                  <BsFillMoonStarsFill
-                    onClick={() => setDarkMode(!darkMode)}
-                    className=" cursor-pointer text-4xl sm:text-3xl lg:text-5xl"
-                  />
-                </li>
-              </ul>
             </nav>
-            <div className="text-center shadow-2xl p-10 py-20">
-              <h2 className="text-5xl py-2 text-blue-500 dark:text-blue-600 font-medium lg:text-8xl md:text-6xl">
+            <div className="text-center shadow-2xl py-20">
+              <h2 className="text-5xl p-10 py-2 text-blue-500 dark:text-blue-600 font-medium lg:text-8xl md:text-6xl">
                 Athenkosi Nomavila
               </h2>
-              <h3 className="text-2xl py-2 dark:text-white lg:text-6xl md:text-3xl">
-                Fullstack Developer.
+              <h3 className="text-2xl p-10 py-2 lg:text-6xl md:text-3xl">
+                Fullstack Developer
               </h3>
-              <div className="relative mx-auto bg-gradient-to-b rounded-full w-80 h-80 overflow-hidden lg:h-fit lg:w-fit">
+              <div className="relative mx-auto bg-orange-200 rounded-full w-80 h-80 overflow-hidden lg:h-fit lg:w-fit">
                 <Image src={athi} />
               </div>
             </div>
@@ -60,7 +52,7 @@ export default function Home() {
               <h2 className="text-5xl pt-20 py-2 font-medium lg:text-8xl md:text-6xl">
                 About
               </h2>
-              <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto lg:text-2xl md:text-xl pb-20">
+              <p className="text-md py-5 leading-8 text-gray-800 max-w-3xl mx-auto lg:text-2xl md:text-xl pb-20">
                 I am a young software developer who is looking to challenge
                 himself in different parts of his life. I am awaiting graduation
                 from We Think Code after studying software development. I chose
@@ -110,7 +102,7 @@ export default function Home() {
               <h2 className="text-5xl pt-20 py-2 font-medium lg:text-8xl md:text-6xl">
                 Projects
               </h2>
-              <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl pb-20 lg:text-2xl">
+              <p className="text-md py-5 leading-8 text-gray-800 max-w-3xl mx-auto md:text-xl pb-20 lg:text-2xl">
                 These are two of the projects of which I am most proud.
                 Throughout In my journey to make them, I was faced with a lot of
                 challenges. That brought me out of my comfort zone and forced me
