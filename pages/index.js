@@ -58,7 +58,7 @@ export default function Home() {
               workplace, South Africa, and beyond.
             </p>
             <div className="text-6xl flex justify-center gap-16 py-3 text-gray-800 dark:text-gray-400">
-              <a href="https://github.com/Athenksoi-Nomavila">
+              <a href="https://github.com/Athenksoi-Nomavila/porfolio">
                 <AiFillGithub />
               </a>
 
