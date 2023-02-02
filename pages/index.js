@@ -2,6 +2,7 @@ import Head from "next/head";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import athi from "../public/avatar.png";
+import demo from "../public/demoed.gif";
 import java from "../public/java.png";
 import javascript from "../public/js.png";
 import html from "../public/html.png";
@@ -110,6 +111,9 @@ export default function Home() {
                 exponential growth, for which I could say it is only the
                 beginning.
               </p>
+              <div className="">
+                <Image src={demo}/>
+              </div>
             </div>
           </section>
         </section>
