@@ -62,7 +62,7 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl pb-20">
               I am a young software developer who is looking to challenge
               himself in different parts of his life. I am awaiting graduation
-              from We Think Code after studying software Development. I chose a
+              from We Think Code after studying software development. I chose a
               career in software development as a result of my interest in tech
               and my hunger to have an impact in the world. I have been exposed
               to different kinds of people who have vastly different
@@ -74,30 +74,48 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="shadow-2xl">
-          <div className="text-center pt-10">
-            <h2 className="text-5xl pt-20 py-2 font-medium dark:text-teal-400 md:text-6xl">
+        <section className="shadow-2xl pb-10 text-center">
+          <div className="text-center pt-20">
+            <h2 className="text-5xl font-medium dark:text-teal-400 md:text-6xl">
               Skills
             </h2>
           </div>
-          <div className="text-center w-20 h-20 mt-10 md:h-46 md:w-46">
-            <Image src={java} /><h2 className=" font-bold ">Java</h2>
+          <div className="mx-auto w-20 h-20 mt-5 md:h-46 md:w-46">
+            <h2 className=" font-bold ">Java</h2>
+            <Image src={java} />
           </div>
 
-          <div className="w-20 h-20 mt-10 md:h-46 md:w-46">
+          <div className="mx-auto w-20 h-20 mt-5 md:h-46 md:w-46">
+            <h2 className=" font-bold ">Javascript</h2>
             <Image src={javascript} />
           </div>
 
-          <div className="w-20 h-20 relative mt-10 md:h-46 md:w-46">
+          <div className="mx-auto w-20 h-20 mt-7 md:h-46 md:w-46">
             <Image src={html} />
           </div>
 
-          <div className="w-20 h-20 mt-10 md:h-46 md:w-46">
+          <div className="mx-auto w-20 h-20 mt-4 md:h-46 md:w-46">
             <Image src={css} />
           </div>
 
-          <div className="w-20 h-20 mt-10 md:h-46 md:w-46">
+          <div className=" mx-auto w-20 h-20 mt-4 md:h-46 md:w-46">
+            <h2 className=" font-bold ">python</h2>
             <Image src={python} />
+          </div>
+        </section>
+
+        <section className="shadow-2xl">
+          <div className="text-center pt-10">
+            <h2 className="text-5xl pt-20 py-2 font-medium dark:text-teal-400 md:text-6xl">
+              Projects
+            </h2>
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl pb-20">
+              These are two of the projects of which I am most proud. Throughout
+              In my journey to make them, I was faced with a lot of challenges.
+              That brought me out of my comfort zone and forced me to think in
+              ways I never thought I could. They brought about exponential
+              growth, for which I could say it is only the beginning.
+            </p>
           </div>
         </section>
       </main>
