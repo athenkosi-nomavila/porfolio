@@ -24,7 +24,7 @@ export default function Home() {
         <section className="bg-gradient-to-b from-blue-300 text- to-cyan-500">
           <section>
             <nav className="py-10  flex justify-between dark:text-white">
-              <div className="md:text-4xl lg:text-6xl flex justify-center gap-10 pl-5  py-2 text-gray-800 dark:text-white">
+              <div className="md:text-4xl lg:text-6xl sm:text-4xl flex justify-center gap-10 pl-5  py-2 text-gray-800 dark:text-white">
                 <a href="https://github.com/Athenksoi-Nomavila/porfolio">
                   <AiFillGithub />
                 </a>
@@ -33,7 +33,7 @@ export default function Home() {
                   <AiFillLinkedin />
                 </a>
               </div>
-              <ul className="md:text-4xl lg:text-7xl flex justify-center pr-5 py-3">
+              <ul className="md:text-4xl lg:text-7xl sm:text-4xl flex justify-center pr-5 py-3">
                 <li>
                   <BsFillMoonStarsFill
                     onClick={() => setDarkMode(!darkMode)}
