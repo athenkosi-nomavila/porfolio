@@ -24,7 +24,7 @@ export default function Home() {
           <section>
             <nav className="py-10  flex justify-between">
               <div className="text-5xl lg:text-6xl flex justify-center gap-10 pl-5  py-2 text-gray-800">
-                <a href="https://github.com/Athenksoi-Nomavila/porfolio">
+                <a href="https://github.com/Athenksoi-Nomavila/">
                   <AiFillGithub />
                 </a>
 
