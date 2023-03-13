@@ -112,7 +112,7 @@ export default function Home() {
 
               <div className="loom">
                 <iframe
-                  src="https://www.loom.com/embed/ca899eb20f3846f8989683a7298eda46"
+                  src="https://www.loom.com/embed/1bb85c7874384fbc857d22acd10190b9"
                   frameborder="0"
                   webkitallowfullscreen
                   mozallowfullscreen
