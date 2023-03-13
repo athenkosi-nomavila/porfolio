@@ -103,7 +103,7 @@ export default function Home() {
               </h2>
               <p className="text-md py-5 leading-8 text-gray-800 max-w-3xl mx-auto md:text-xl pb-20 lg:text-2xl">
                 These are two of the projects of which I am most proud.
-                Throughout In my journey to make them, I was faced with a lot of
+                Throughout my journey to make them, I was faced with a lot of
                 challenges. That brought me out of my comfort zone and forced me
                 to think in ways I never thought I could. They brought about
                 exponential growth, for which I could say it is only the
