@@ -102,17 +102,27 @@ export default function Home() {
                 Projects
               </h2>
               <p className="text-md py-5 leading-8 text-gray-800 max-w-3xl mx-auto md:text-xl pb-20 lg:text-2xl">
-                These are the projects I am most proud.
-                Throughout my journey to make them, I was faced with a lot of
-                challenges. That brought me out of my comfort zone and forced me
-                to think in ways I never thought I could. They brought about
-                exponential growth, for which I could say it is only the
-                beginning.
+                These are the projects I am most proud. Throughout my journey to
+                make them, I was faced with a lot of challenges. That brought me
+                out of my comfort zone and forced me to think in ways I never
+                thought I could. They brought about exponential growth, for
+                which I could say it is only the beginning.
               </p>
 
               <div className="loom">
                 <iframe
                   src="https://www.loom.com/embed/9766a9278ac24dacbbd21cbf1a113f87?sid=9de22041-2f95-405d-b6fb-81056039b9e8"
+                  frameborder="0"
+                  webkitallowfullscreen
+                  mozallowfullscreen
+                  allowfullscreen
+                  className="loom-frame"
+                ></iframe>
+              </div>
+
+              <div className="loom">
+                <iframe
+                  src="https://www.loom.com/embed/19d66eb756724041b496459f667802ca?sid=ba357b58-3a65-4c66-bcdf-8660b2bbbfaf"
                   frameborder="0"
                   webkitallowfullscreen
                   mozallowfullscreen
