@@ -24,7 +24,7 @@ export default function Home() {
           <section>
             <nav className="py-10  flex justify-between">
               <div className="text-5xl lg:text-6xl flex justify-center gap-10 pl-5  py-2 text-gray-800">
-                <a href="https://github.com/Athenksoi-Nomavila/">
+                <a href="https://github.com/Athenkosi-Nomavila/">
                   <AiFillGithub />
                 </a>
 
@@ -102,7 +102,7 @@ export default function Home() {
                 Projects
               </h2>
               <p className="text-md py-5 leading-8 text-gray-800 max-w-3xl mx-auto md:text-xl pb-20 lg:text-2xl">
-                These are two of the projects of which I am most proud.
+                These are the projects I am most proud.
                 Throughout my journey to make them, I was faced with a lot of
                 challenges. That brought me out of my comfort zone and forced me
                 to think in ways I never thought I could. They brought about
@@ -110,10 +110,20 @@ export default function Home() {
                 beginning.
               </p>
 
+              <div className="loom">
+                <iframe
+                  src="https://www.loom.com/embed/9766a9278ac24dacbbd21cbf1a113f87?sid=9de22041-2f95-405d-b6fb-81056039b9e8"
+                  frameborder="0"
+                  webkitallowfullscreen
+                  mozallowfullscreen
+                  allowfullscreen
+                  className="loom-frame"
+                ></iframe>
+              </div>
 
               <div className="loom">
                 <iframe
-                  src="https://www.loom.com/embed/b72fb5f075934ab3a34d6f683608e0b3"
+                  src="https://www.loom.com/embed/3c2f2ca01b4c40bbae6922d616a3895d?sid=8846f3bd-96fb-453e-9738-f663eda3cc04"
                   frameborder="0"
                   webkitallowfullscreen
                   mozallowfullscreen
