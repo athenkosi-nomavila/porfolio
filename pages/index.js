@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="p-10 bg-sky-100 sm:px-10 md:px-20 lg:px-96">
-        <section className="bg-gradient-to-b from-blue-300 text- to-purple-300">
+        <section className="bg-gradient-to-b from-blue-300 to-purple-300">
           <section>
             <nav className="py-10  flex justify-between">
               <div className="text-5xl lg:text-6xl flex justify-center gap-10 pl-5  py-2 text-gray-800">
@@ -32,6 +32,12 @@ export default function Home() {
                   <AiFillLinkedin />
                 </a>
               </div>
+              <button
+                onClick={() => setDarkMode(!darkMode)}
+                className="text-2xl px-4 py-2 bg-gray-200 dark:bg-gray-800 rounded"
+              >
+                {darkMode ? "Light" : "Dark"} Mode
+              </button>
             </nav>
             <div className="text-center shadow-2xl py-20">
               <h2 className="text-5xl p-10 py-2 text-blue-500 dark:text-blue-600 font-medium lg:text-8xl md:text-6xl">
@@ -41,7 +47,7 @@ export default function Home() {
                 Fullstack Developer
               </h3>
               <div className="relative mx-auto bg-orange-200 rounded-full w-80 h-80 overflow-hidden lg:h-fit lg:w-fit">
-                <Image src={athi} />
+                <Image src={athi} alt="Athenkosi Nomavila" />
               </div>
             </div>
           </section>
@@ -52,17 +58,16 @@ export default function Home() {
                 About
               </h2>
               <p className="text-md py-5 leading-8 text-gray-800 max-w-3xl mx-auto lg:text-2xl md:text-xl pb-20">
-                I am a young software developer who is looking to challenge
-                himself in different parts of his life. I am awaiting graduation
-                from We Think Code after studying software development. I chose
-                a career in software development as a result of my interest in
-                tech and my hunger to have an impact in the world. I have been
-                exposed to different kinds of people who have vastly different
-                perspectives. I believe in a sense of community and teamwork and
-                that could be adopted and used to better the workplace, South
-                Africa, and beyond.
+                I am a young software developer looking to challenge myself in
+                different aspects of life. I am set to graduate from We Think Code
+                after completing my software development studies. I chose this
+                career due to my passion for technology and my desire to make a
+                positive impact on the world. Through my studies, I have been
+                exposed to diverse individuals with varied perspectives, which has
+                reinforced my belief in the power of community and teamwork.
+                These values can be applied to improve workplaces, South Africa,
+                and beyond.
               </p>
-              <i class="uil uil-html5"></i>
             </div>
           </section>
 
@@ -74,25 +79,27 @@ export default function Home() {
             </div>
             <div className="mx-auto w-20 h-20 mt-5 md:h-46 md:w-46">
               <h2 className=" font-bold ">Java</h2>
-              <Image src={java} />
+              <Image src={java} alt="Java logo" />
             </div>
 
             <div className="mx-auto w-20 h-20 mt-5 md:h-46 md:w-46">
               <h2 className=" font-bold ">Javascript</h2>
-              <Image src={javascript} />
+              <Image src={javascript} alt="JavaScript logo" />
             </div>
 
             <div className="mx-auto w-20 h-20 mt-7 md:h-46 md:w-46">
-              <Image src={html} />
+              <h2 className=" font-bold ">HTML</h2>
+              <Image src={html} alt="HTML logo" />
             </div>
 
             <div className="mx-auto w-20 h-20 mt-4 md:h-46 md:w-46">
-              <Image src={css} />
+              <h2 className=" font-bold ">CSS</h2>
+              <Image src={css} alt="CSS logo" />
             </div>
 
             <div className=" mx-auto w-20 h-20 mt-4 md:h-46 md:w-46">
-              <h2 className=" font-bold ">python</h2>
-              <Image src={python} />
+              <h2 className=" font-bold ">Python</h2>
+              <Image src={python} alt="Python logo" />
             </div>
           </section>
 
@@ -102,11 +109,11 @@ export default function Home() {
                 Projects
               </h2>
               <p className="text-md py-5 leading-8 text-gray-800 max-w-3xl mx-auto md:text-xl pb-20 lg:text-2xl">
-                These are the projects I am most proud. Throughout my journey to
-                make them, I was faced with a lot of challenges. That brought me
-                out of my comfort zone and forced me to think in ways I never
-                thought I could. They brought about exponential growth, for
-                which I could say it is only the beginning.
+                These are the projects I am most proud of. Throughout my journey
+                in making them, I faced numerous challenges that pushed me out of
+                my comfort zone and encouraged innovative thinking. This
+                experience has led to significant personal growth, and I believe
+                it is only the beginning.
               </p>
 
               <div className="loom">
