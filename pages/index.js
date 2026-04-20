@@ -32,12 +32,6 @@ export default function Home() {
                   <AiFillLinkedin />
                 </a>
               </div>
-              <button
-                onClick={() => setDarkMode(!darkMode)}
-                className="text-2xl px-4 py-2 bg-gray-200 dark:bg-gray-800 rounded"
-              >
-                {darkMode ? "Light" : "Dark"} Mode
-              </button>
             </nav>
             <div className="text-center shadow-2xl py-20">
               <h2 className="text-5xl p-10 py-2 text-blue-500 dark:text-blue-600 font-medium lg:text-8xl md:text-6xl">
