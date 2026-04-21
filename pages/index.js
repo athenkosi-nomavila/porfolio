@@ -32,12 +32,6 @@ export default function Home() {
                   <AiFillLinkedin />
                 </a>
               </div>
-              <button
-                onClick={() => setDarkMode(!darkMode)}
-                className="text-2xl px-4 py-2 bg-gray-200 dark:bg-gray-800 rounded"
-              >
-                {darkMode ? "Light" : "Dark"} Mode
-              </button>
             </nav>
             <div className="text-center shadow-2xl py-20">
               <h2 className="text-5xl p-10 py-2 text-blue-500 dark:text-blue-600 font-medium lg:text-8xl md:text-6xl">
@@ -58,14 +52,14 @@ export default function Home() {
                 About
               </h2>
               <p className="text-md py-5 leading-8 text-gray-800 max-w-3xl mx-auto lg:text-2xl md:text-xl pb-20">
-                I am a young software developer looking to challenge myself in
-                different aspects of life. I am set to graduate from We Think Code
-                after completing my software development studies. I chose this
-                career due to my passion for technology and my desire to make a
-                positive impact on the world. Through my studies, I have been
-                exposed to diverse individuals with varied perspectives, which has
-                reinforced my belief in the power of community and teamwork.
-                These values can be applied to improve workplaces, South Africa,
+                I am a software developer with 3 years of professional experience,
+                having graduated from We Think Code. Throughout my career, I have
+                continued to challenge myself in different aspects of development
+                and life. I chose this path due to my passion for technology and
+                my desire to make a positive impact on the world. My journey has
+                exposed me to diverse individuals with varied perspectives, which
+                has reinforced my belief in the power of community and teamwork.
+                These values guide me as I work to improve myself, workplaces, South Africa,
                 and beyond.
               </p>
             </div>
@@ -73,33 +67,34 @@ export default function Home() {
 
           <section className="shadow-2xl pb-10 text-center">
             <div className="text-center pt-20">
-              <h2 className="text-5xl font-medium lg:text-8xl md:text-6xl">
-                Skills
-              </h2>
-            </div>
-            <div className="mx-auto w-20 h-20 mt-5 md:h-46 md:w-46">
-              <h2 className=" font-bold ">Java</h2>
-              <Image src={java} alt="Java logo" />
+              <h2 className="text-5xl font-medium lg:text-8xl md:text-6xl">Skills</h2>
             </div>
 
-            <div className="mx-auto w-20 h-20 mt-5 md:h-46 md:w-46">
-              <h2 className=" font-bold ">Javascript</h2>
-              <Image src={javascript} alt="JavaScript logo" />
-            </div>
+            <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 place-items-center">
+              <div className="flex flex-col items-center">
+                <h2 className="font-bold">Java</h2>
+                <Image src={java} alt="Java logo" className="h-16 w-16 md:h-20 md:w-20" />
+              </div>
 
-            <div className="mx-auto w-20 h-20 mt-7 md:h-46 md:w-46">
-              <h2 className=" font-bold ">HTML</h2>
-              <Image src={html} alt="HTML logo" />
-            </div>
+              <div className="flex flex-col items-center">
+                <h2 className="font-bold">Javascript</h2>
+                <Image src={javascript} alt="JavaScript logo" className="h-16 w-16 md:h-20 md:w-20" />
+              </div>
 
-            <div className="mx-auto w-20 h-20 mt-4 md:h-46 md:w-46">
-              <h2 className=" font-bold ">CSS</h2>
-              <Image src={css} alt="CSS logo" />
-            </div>
+              <div className="flex flex-col items-center">
+                <h2 className="font-bold">HTML</h2>
+                <Image src={html} alt="HTML logo" className="h-16 w-16 md:h-20 md:w-20" />
+              </div>
 
-            <div className=" mx-auto w-20 h-20 mt-4 md:h-46 md:w-46">
-              <h2 className=" font-bold ">Python</h2>
-              <Image src={python} alt="Python logo" />
+              <div className="flex flex-col items-center">
+                <h2 className="font-bold">CSS</h2>
+                <Image src={css} alt="CSS logo" className="h-16 w-16 md:h-20 md:w-20" />
+              </div>
+
+              <div className="flex flex-col items-center">
+                <h2 className="font-bold">Python</h2>
+                <Image src={python} alt="Python logo" className="h-16 w-16 md:h-20 md:w-20" />
+              </div>
             </div>
           </section>
 
@@ -109,11 +104,10 @@ export default function Home() {
                 Projects
               </h2>
               <p className="text-md py-5 leading-8 text-gray-800 max-w-3xl mx-auto md:text-xl pb-20 lg:text-2xl">
-                These are the projects I am most proud of. Throughout my journey
-                in making them, I faced numerous challenges that pushed me out of
-                my comfort zone and encouraged innovative thinking. This
-                experience has led to significant personal growth, and I believe
-                it is only the beginning.
+                These are the projects I'm most proud of.
+                Developing them challenged me to step outside my comfort zone,
+                fostering innovative thinking and driving significant personal growth.
+                I believe this is just the start of my journey.
               </p>
 
               <div className="loom">
